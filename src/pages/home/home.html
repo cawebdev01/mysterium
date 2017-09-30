@@ -1,14 +1,24 @@
 <ion-header>
   <ion-navbar>
-    <ion-title>
-      Ionic Blank
+    <ion-title text-center>
+      <h1>Mysterium,</h1>
+      <h4>L'assistant pour le fantôme</h4>
     </ion-title>
   </ion-navbar>
 </ion-header>
 
-<ion-content padding>
-  The world is your oyster.
-  <p>
-    If you get lost, the <a href="http://ionicframework.com/docs/v2">docs</a> will be your guide.
+<ion-content padding id="test">
+  <img src="img/mysterium_bg.jpg" alt="Un manoir effrayant">
+  <p text-center> 
+    Bonsoir à vous!<br>
+    Vous avez osé franchir les portes du manoir hanté de Mysterium...<br>
+    Quel courage! <br>
+    Installez-vous confortablement autour de la table, ouvrez votre esprit et réveillez votre 6ème sens: <br>
+    Vous allez participez à une séance de spiritisme exceptionnelle et tenter d'apaiser une pauvre âme égarée.
   </p>
+  <button ion-button class="game-btn" full (click)="game()">Nouvelle Partie</button>
+  <button ion-button class="" full>Partie en cours</button>
+  <button ion-button class="" full >Les Règles du Jeu</button>
+  <button ion-button class="" full >Invitez vos Amis à Jouer</button>
+  <button ion-button class="" full>Vos Statistiques</button>
 </ion-content>
